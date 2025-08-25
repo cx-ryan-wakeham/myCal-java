@@ -1,0 +1,49 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  width: calc(50% - 8px);
+}
+
+.name-row {
+  display: flex;
+  gap: 16px;
+}
+
+.button-container {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.button-spinner {
+  margin-right: 10px;
+}
+
+mat-form-field {
+  margin-bottom: 16px;
+}
+
+.text-center {
+  text-align: center;
+  margin: 0;
+}
+
+mat-card-actions {
+  padding-top: 0;
+}

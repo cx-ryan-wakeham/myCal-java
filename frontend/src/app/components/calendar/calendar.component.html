@@ -1,0 +1,15 @@
+<div class="calendar-container">
+  <div class="calendar-header">
+    <h2>My Calendar</h2>
+    <button mat-raised-button color="primary" (click)="createEvent()">
+      <mat-icon>add</mat-icon>
+      Create Event
+    </button>
+  </div>
+
+  <mat-card class="calendar-card">
+    <mat-card-content>
+      <full-calendar [options]="calendarOptions"></full-calendar>
+    </mat-card-content>
+  </mat-card>
+</div>
